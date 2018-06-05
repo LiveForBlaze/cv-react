@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import FontAwesome from 'react-fontawesome';
+import 'font-awesome/css/font-awesome.min.css';
 
 import '../main.css';
 
@@ -11,7 +11,9 @@ class Info extends Component {
       <ul className="info">
         <li>
           <div className="icon big">
-          <FontAwesome className='super-crazy-colors' name='rocket' size='2x' spin style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}/></div><div className="icontext"><span>ФИО:</span>Мухамедов Рустам Альфэридович</div>
+          <i className="fa fa-address-book"></i>
+
+          </div><div className="icontext"><span>ФИО:</span>Мухамедов Рустам Альфэридович</div>
         </li>
         <li>
           <div className="icon big"><i className="fa fa-map-marker" aria-hidden="true"></i></div><div className="icontext"><span>Адрес:</span>г. Казань, ул. Закиева д.23</div>
