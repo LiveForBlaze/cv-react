@@ -11,12 +11,9 @@ html, body {
   height: 100%;
 }
 
-
-
 body {
   background: url("./img/bgscar5.jpg") no-repeat 20% 0;
 }
-
 
 /* Стрелка */
 
@@ -124,6 +121,7 @@ body {
   color: #a6a6a6;
   font-size: 12px;
   vertical-align: top;
+  width: 60px;
 }
 
 .vertical {

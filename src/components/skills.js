@@ -48,7 +48,7 @@ class Skills extends Component {
               <div className="table-cell">
                 <div className="p80" id="designhover"></div>
               </div>
-              <div className="table-cell">80%</div>
+              <div className="table-cell">75%</div>
 
             </div>
 
