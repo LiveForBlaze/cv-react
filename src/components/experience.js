@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import './main.css';
 import { Link } from 'react-router-dom';
+
+import '../main.css';
+
 
 class Experience extends Component {
   render() {

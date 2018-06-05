@@ -1,19 +1,21 @@
 import React, { Component } from 'react';
-import './main.css';
-import {Icon} from 'react-fa';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
+import '../main.css';
+
 import Skills from './skills';
 import About from './about';
 import Education from './education';
 import Experience from './experience';
 import Info from './info';
 import Infosmall from './infosmall';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+
 
 var a = 0;
 
 function slide(){
     var x=document.getElementById('topmobile');
-    if (a == 0) {
+    if (a === 0) {
     x.style.display = "block";
     a = 1;
   } else {
@@ -27,9 +29,9 @@ class App extends Component {
   render() {
     return (
       <Router>
-<div className="container">
-<div className="topmobilemenu">
-  <div className="mainleftbutton" onClick={slide}><i className="fa fa-user-o" aria-hidden="true"></i></div>
+        <div className="container">
+          <div className="topmobilemenu">
+          <div className="mainleftbutton" onClick={slide}><i className="fa fa-user-o" aria-hidden="true"></i></div>
 </div>
 <div className="topmobile" id="topmobile">
   <Infosmall/>
